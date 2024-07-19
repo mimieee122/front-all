@@ -130,10 +130,10 @@ const Home = () => {
                     className="project transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-xl  border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative"
                 >
                     <p className="white text-6xl text-white">Project</p>
-                </div>{' '}
+                </div>
                 <div className="board transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-xl  border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative">
                     <p className="white text-6xl text-white">Board</p>
-                </div>{' '}
+                </div>
             </div>
             <div className="h-[50px]"></div>
             <div className="mt-6  w-[1300px] h-[6px]   bg-blue-500"></div>

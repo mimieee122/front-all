@@ -111,7 +111,7 @@ function Project() {
                                 </p>
                                 <p className="h-5"></p>
                                 <p className="eXplain pr-2 pl-2 text-white text-[20px]">
-                                    ⛓️ SITE :{' '}
+                                    ⛓️ SITE :
                                     <a
                                         className="text-purple-500 click"
                                         href="https://login-study.vercel.app/"
@@ -147,7 +147,7 @@ function Project() {
                                 </p>
                                 <p className="h-5"></p>
                                 <p className="eXplain pr-2 pl-2 text-white text-[20px]">
-                                    ⛓️ SITE :{' '}
+                                    ⛓️ SITE :
                                     <a
                                         className="text-purple-500 click"
                                         href="https://todo-project-taupe-five.vercel.app/"
