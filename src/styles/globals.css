@@ -10,6 +10,7 @@ html {
     //background-image: url('https://i.pinimg.com/564x/44/1f/c8/441fc876392ed7e9a95bf412c04d9f54.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
     font-family: 'CWDangamAsac-Bold';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff')
         format('woff');
-    font-weight: normal;
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -50,19 +51,156 @@ body {
     font-style: normal;
 }
 
-.title {
-    font-family: 'PartialSansKR-Regular';
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-    font-weight: 800;
-    font-size: 180px;
+@font-face {
+    font-family: 'PFStardust';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .text-stroke-2 {
-    -webkit-text-stroke: 0.2px white;
+    -webkit-text-stroke: 2.5px;
 }
 
 .name {
-    font-family: 'PartialSansKR-Regular';
-    font-size: 50px;
-    -webkit-text-stroke: 1px black;
+    //font-family: 'CWDangamAsac-Bold';
+    font-family: 'SF_HambakSnow';
+
+    font-size: 70px;
+
+    -webkit-text-stroke: 5px #3b82f6;
+    letter-spacing: 1px;
+}
+
+.aboutMe {
+    font-family: 'SF_HambakSnow';
+    //font-family: 'CWDangamAsac-Bold';
+
+    -webkit-text-stroke: 4px #3b82f6;
+    font-size: 70px;
+    letter-spacing: 1px;
+}
+
+.contact {
+    background-image: url('https://github.com/mimieee122/mslogo/blob/main/%ED%8C%8C%EB%9E%91%EC%97%AC%EC%9E%904.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 400px;
+    background-position: center;
+}
+
+.about {
+    background-image: url('https://github.com/mimieee122/mslogo/blob/main/%ED%8C%8C%EB%9E%80%EC%97%AC%EC%9E%901.png?raw=true');
+    //background-image: url('https://github.com/mimieee122/mslogo/blob/main/%ED%8C%8C%EB%9E%91%EC%97%AC%EC%9E%902.png?raw=true');
+    //background-image: url('https://github.com/mimieee122/mslogo/blob/main/%ED%8C%8C%EB%9E%91%EC%97%AC%EC%9E%90%203.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 400px;
+    background-position: center;
+}
+
+.project {
+    background-image: url('https://github.com/mimieee122/mslogo/blob/main/%ED%8C%8C%EB%9E%91%EC%97%AC%EC%9E%906.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 400px;
+}
+
+.board {
+    background-image: url('https://github.com/mimieee122/mslogo/blob/main/%ED%8C%8C%EB%9E%91%EC%97%AC%EC%9E%905.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 400px;
+    background-position: center;
+}
+
+.second {
+    background-image: url('https://i.pinimg.com/564x/77/10/04/771004a8842a9ece5a121fa8cffee537.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white {
+    //font-family: 'CWDangamAsac-Bold';
+    font-family: 'SF_HambakSnow';
+
+    -webkit-text-stroke: 4px white;
+}
+
+.hi {
+    font-family: 'SF_HambakSnow';
+    font-size: 35px;
+}
+
+.info {
+    font-family: 'PFStardust';
+
+    font-size: 30px;
+
+    -webkit-text-stroke: 2.5px white;
+    letter-spacing: 1px;
+}
+
+.detail {
+    font-family: 'PFStardust';
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 4px white;
+}
+
+.aboutGirl {
+    background-image: url('https://github.com/mimieee122/mslogo/blob/main/%ED%8C%8C%EB%9E%80%EC%97%AC%EC%9E%901.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.projectName {
+    font-family: 'PFStardust';
+    -webkit-text-stroke: 2px white;
+    text-shadow: 3px 3px 5px white;
+    font-size: 40px;
+}
+
+.login {
+    background-image: url('https://github.com/mimieee122/mslogo/blob/main/%EB%A1%9C%EA%B7%B8%EC%9D%B8.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.explain {
+    font-family: 'PFStardust';
+    font-size: 30px;
+    -webkit-text-stroke: 3px black;
+    letter-spacing: 1px;
+}
+
+.eXplain {
+    font-family: 'PFStardust';
+    font-size: 20px;
+    -webkit-text-stroke: 1px white;
+}
+
+.todoList {
+    background-image: url('https://github.com/mimieee122/mslogo/blob/main/%ED%88%AC%EB%91%90%EB%A6%AC%EC%8A%A4%ED%8A%B8.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.calculator {
+    background-image: url('https://github.com/mimieee122/mslogo/blob/main/%EA%B3%84%EC%82%B0%EA%B8%B0.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
