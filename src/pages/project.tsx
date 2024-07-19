@@ -76,7 +76,7 @@ function Project() {
                             variants={nameVariants}
                             className="name text-blue-500  mt-5 text-5xl"
                         >
-                            MISEONG'S PROJECTS
+                            PROJECTS
                         </motion.p>
                     </div>
                     <div className="w-[600px] h-[6px] mt-6 bg-blue-500"></div>
