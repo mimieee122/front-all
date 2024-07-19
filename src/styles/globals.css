@@ -118,7 +118,7 @@ body {
     height: 400px;
 }
 
-.board {
+.archive {
     background-image: url('https://github.com/mimieee122/mslogo/blob/main/%ED%8C%8C%EB%9E%91%EC%97%AC%EC%9E%905.png?raw=true');
     background-repeat: no-repeat;
     background-size: contain;
@@ -203,4 +203,29 @@ body {
     background-image: url('https://github.com/mimieee122/mslogo/blob/main/%EA%B3%84%EC%82%B0%EA%B8%B0.png?raw=true');
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.github {
+    background-image: url('https://github.com/mimieee122/mslogo/blob/main/%EA%B9%83%ED%97%88%EB%B8%8C.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tistory {
+    background-image: url('https://github.com/mimieee122/mslogo/blob/main/%ED%8B%B0%EC%8A%A4%ED%86%A0%EB%A6%AC.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.site {
+    font-family: 'SF_HambakSnow';
+    font-size: 20px;
+    -webkit-text-stroke: 1px white;
+}
+
+.last {
+    font-family: 'PFStardust';
+    font-size: 20px;
+    -webkit-text-stroke: 1px white;
+    letter-spacing: 1px;
 }

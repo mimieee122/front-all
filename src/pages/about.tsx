@@ -14,13 +14,8 @@ function About() {
         window.location.href = '/project'
     }
 
-    const nameVariants = {
-        hidden: { opacity: 0, x: -100 },
-        visible: {
-            opacity: 1,
-            x: 0,
-            transition: { duration: 1, delay: 1 },
-        },
+    const goArchive = () => {
+        window.location.href = '/archive'
     }
 
     return (
@@ -36,7 +31,9 @@ function About() {
                     <button onClick={goProject} className="hover:text-blue-500">
                         Project
                     </button>
-                    <button className="hover:text-blue-500">Board</button>
+                    <button onClick={goArchive} className="hover:text-blue-500">
+                        Archive
+                    </button>
                 </div>
             </div>
 
@@ -50,7 +47,7 @@ function About() {
                     animate="visible"
                     className="aboutMe  text-[#3b82f6]  mt-5  text-7xl"
                 >
-                    ABOUT ME
+                    🔗ABOUT ME
                 </motion.p>
             </div>
 

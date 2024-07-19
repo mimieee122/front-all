@@ -20,8 +20,8 @@ const Home = () => {
         window.location.href = '/project'
     }
 
-    const goContact = () => {
-        window.location.href = '/contact'
+    const goArchive = () => {
+        window.location.href = '/archive'
     }
 
     const nameVariants = {
@@ -55,7 +55,9 @@ const Home = () => {
                     <button onClick={goProject} className="hover:text-blue-500">
                         Project
                     </button>
-                    <button className="hover:text-blue-500">Board</button>
+                    <button onClick={goArchive} className="hover:text-blue-500">
+                        Archive
+                    </button>
                 </div>
             </div>
 
@@ -131,8 +133,11 @@ const Home = () => {
                 >
                     <p className="white text-6xl text-white">Project</p>
                 </div>
-                <div className="board transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-xl  border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative">
-                    <p className="white text-6xl text-white">Board</p>
+                <div
+                    onClick={goArchive}
+                    className="archive transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-xl  border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative"
+                >
+                    <p className="white text-6xl text-white">Archive</p>
                 </div>
             </div>
             <div className="h-[50px]"></div>

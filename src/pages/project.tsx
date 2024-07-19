@@ -21,6 +21,10 @@ function Project() {
         window.location.href = '/project'
     }
 
+    const goArchive = () => {
+        window.location.href = '/archive'
+    }
+
     const nameVariants = {
         hidden: { opacity: 0, x: -100 },
         visible: {
@@ -43,7 +47,9 @@ function Project() {
                     <button onClick={goProject} className="hover:text-blue-500">
                         Project
                     </button>
-                    <button className="hover:text-blue-500">Board</button>
+                    <button onClick={goArchive} className="hover:text-blue-500">
+                        Archive
+                    </button>
                 </div>
             </div>
 
