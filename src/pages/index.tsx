@@ -88,7 +88,7 @@ const Home = () => {
                             variants={nameVariants}
                             className="name text-blue-500  mt-5 text-right text-7xl"
                         >
-                            MISEONG'S WEBSITE
+                            MISEONG WEBSITE
                         </motion.p>
                     </div>
                     <div className="w-[600px] h-[6px] mt-3 bg-blue-500"></div>
