@@ -18,6 +18,14 @@ function About() {
         window.location.href = '/archive'
     }
 
+    const goGit = () => {
+        window.location.href = 'https://github.com/mimieee122'
+    }
+
+    const goTistory = () => {
+        window.location.href = 'https://with-mimi.tistory.com/'
+    }
+
     return (
         <>
             <div className="flex flex-row justify-end">
@@ -51,7 +59,10 @@ function About() {
 
             <div className="flex flex-row gap-6 justify-center mt-20">
                 <div className="w-[500px] h-[400px] flex flex-col  items-center border-gray-300 border-[6px] bg-blue-500 rounded-3xl">
-                    <div className="github w-[200px] h-[200px] mt-3"></div>
+                    <div
+                        onClick={goGit}
+                        className="cursor-pointer github w-[200px] h-[200px] mt-3"
+                    ></div>
                     <p className="site pr-2 pl-2 mt-8 underline text-white text-[20px]">
                         ⛓️ SITE :
                         <a
@@ -66,7 +77,10 @@ function About() {
                     </p>
                 </div>
                 <div className="w-[500px] h-[400px] flex flex-col  items-center border-gray-300 border-[6px] bg-blue-500 rounded-3xl">
-                    <div className="tistory w-[400px] h-[165px] mt-20"></div>
+                    <div
+                        onClick={goTistory}
+                        className="cursor-pointer tistory w-[400px] h-[165px] mt-20"
+                    ></div>
                     <p className="site pr-2 pl-2  underline text-white text-[20px]">
                         ⛓️ SITE :
                         <a
@@ -77,7 +91,7 @@ function About() {
                         </a>
                     </p>
                     <p className="last text-white mt-6">
-                        공유 및 지식 공유 목적의 블로그 입니다.
+                        공부 및 지식 공유 목적의 블로그 입니다.
                     </p>
                 </div>
             </div>

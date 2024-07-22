@@ -119,23 +119,25 @@ const Home = () => {
                     onClick={goHome}
                     className="home contact rounded-xl transition-opacity duration-300 ease-in-out hover:opacity-50 border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative"
                 >
-                    <p className="white text-6xl text-white">Home</p>
+                    <p className="cursor-pointer white text-6xl text-white">
+                        Home
+                    </p>
                 </div>
                 <div
                     onClick={goAbout}
-                    className="about transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-xl  border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative"
+                    className="cursor-pointer about transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-xl  border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative"
                 >
                     <p className="white text-6xl text-white">About</p>
                 </div>
                 <div
                     onClick={goProject}
-                    className="project transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-xl  border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative"
+                    className="cursor-pointer project transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-xl  border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative"
                 >
                     <p className="white text-6xl text-white">Project</p>
                 </div>
                 <div
                     onClick={goArchive}
-                    className="archive transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-xl  border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative"
+                    className="cursor-pointer archive transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-xl  border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative"
                 >
                     <p className="white text-6xl text-white">Archive</p>
                 </div>
