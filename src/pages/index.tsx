@@ -96,7 +96,7 @@ const Home = () => {
                     <div className="w-[600px] h-[6px] mt-3 bg-blue-500"></div>
                 </div>
                 <div className="flex flex-col gap-3">
-                    <div className="second border-blue-500 border-[4px] rounded-xl  w-[700px] h-[600px] "></div>
+                    <div className="second border-blue-500 border-[4px] pr-3 mr-3 rounded-xl  w-[700px] h-[600px] "></div>
                 </div>
             </div>
 

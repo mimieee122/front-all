@@ -204,6 +204,45 @@ function Project() {
                         </div>
                     </div>
                 </div>
+                <div className="w-[1100px] h-[1000px] border-purple-700 border-[7px] mt-40 rounded-lg flex flex-col gap-1 items-center">
+                    <p className="mt-10 mb-10 projectName text-white">
+                        4. 틱택토 게임 구현 (mini)
+                    </p>
+                    <div className="tictacToe rounded-2xl w-[900px] h-[600px]"></div>
+                    <div className=" rounded-3xl flex flex-col   justify-center items-center">
+                        <div
+                            style={{
+                                boxShadow: '0 0 90px #7e22ce',
+                            }}
+                            className=" bg-white mb-7 explain 
+                             flex flex-col justify-center items-center text-3xl w-[900px] h-[280px]  rounded-xl   border-[10px] border-purple-700  "
+                        >
+                            <p className="mt-3 mb-3">DESCRIPTION</p>
+                            <div className=" rounded-xl w-[800px] h-[180px] bg-black flex flex-col justify-center items-center">
+                                <p className="eXplain pr-2 pl-2 text-white text-[20px]">
+                                    온라인 틱-택-토 게임은 간단하면서도 재미있게
+                                    즐길 수 있는 클래식 게임입니다. 두
+                                    플레이어가 번갈아 가며 게임판에 X와 O를
+                                    배치하면서 승리를 위해 노력하게 됩니다.
+                                    실수로 잘못된 수를 두었다면 화면 우측의 순서
+                                    버튼을 통해 언제든지 이전 수로 돌아갈 수
+                                    있게 됩니다.
+                                </p>
+                                <p className="h-5"></p>
+                                <p className="eXplain pr-2 pl-2 text-white text-[20px]">
+                                    ⛓️ SITE :
+                                    <a
+                                        className="text-purple-500 click"
+                                        href="https://tic-tac-toe-pied-six.vercel.app/"
+                                    >
+                                        → CLICK ! ←
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="h-[100px]"></div>
             </div>
         </>
